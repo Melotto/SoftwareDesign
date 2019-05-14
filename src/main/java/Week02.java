@@ -12,7 +12,7 @@ import java.util.*;
 public class Week02 {
     
     
-
+//COMMENT TO TEST CHANGE ON GIT
 	Random rand = new Random();
 	
 	public int roll () {
