@@ -17,6 +17,8 @@ public class Week02 {
 		return randValue;
 	}
 	
+	//This line was edited on 21/05, classroom exercise
+	
 	public static void main(String[] args) {
 		week2_01 self = new week2_01();
 		int randNo = 0;
