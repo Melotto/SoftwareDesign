@@ -7,11 +7,13 @@ public class cards {
 		System.out.println("Choose a card: ");
 		Scanner input = new Scanner(System.in);
 		int card = input.nextInt();
-		 int rank, suit;
-		 String rankValue, suitValue;
+		int rank, suit;
+		String rankValue, suitValue;
+		int luckyCard;
 		 
 		 rank = (int)(Math.random() * 13) + 1;
 		 suit = (int)(Math.random() * 4) + 1;
+		luckyCard = (int)(Math.random() * 13) + 1;
 		  
 		 rankValue = "";
 		 suitValue = "";
@@ -75,9 +77,11 @@ public class cards {
 		 if(card != rank) {
 			 
 			 System.out.print("You picked: " + card + "\n And the magic card is: " + rankValue + " of " + suitValue + ".");
+		 	System.out.print("\n The lucky card is: " + luckyCard);
 		 }
 		 else {
 			 System.out.println("Congrats! The magic card is: " + rankValue + " of " + suitValue + ".");
+		 	System.out.print("\n The lucky card is: " + luckyCard);
 		 }
 		 }
 		} 
