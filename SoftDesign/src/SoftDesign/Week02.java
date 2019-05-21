@@ -9,7 +9,7 @@ public class Week02 {
 		int randValue = rand.nextInt(16) +1 ;
 		return randValue;
 	}
-	
+	//Teste number 3
 	public static void main(String[] args) {
 		Week02 self = new Week02();
 		int randNo = 0;
