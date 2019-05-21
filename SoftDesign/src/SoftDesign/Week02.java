@@ -11,6 +11,7 @@ public class Week02 {
 	}
 	//Test number 3
 	//Test number 4
+	//Test number 5
 	public static void main(String[] args) {
 		Week02 self = new Week02();
 		int randNo = 0;
