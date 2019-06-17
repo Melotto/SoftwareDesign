@@ -4,6 +4,10 @@ import java.util.Scanner;
 import java.util.Vector;
 
 /* Simulation of console-I/O program Blackjack, using ConsoleApplet as a basis.
+*BlackJack game coded in Java.
+*Group assignment for Fundamentals of Software Design and Development class.
+*Sheridan College Institute of Technology and Advanced Learning.
+*June 17, 2019.
 */
 public class BlackJack {
 
