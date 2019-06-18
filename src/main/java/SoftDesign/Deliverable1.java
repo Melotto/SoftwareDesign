@@ -4,8 +4,9 @@ import java.util.Scanner;
 import java.util.Vector;
 
 /* Simulation of console-I/O program Blackjack, using ConsoleApplet as a basis.
+*Assignment for Fundamentals of Software Design and Development 
 */
-public class BlackJack {
+public class Deliverable1 {
 
 	    private static Scanner scanner = new Scanner(System.in);
 	    private int[] deck;   // An array of 52 Cards, representing the deck.
@@ -14,7 +15,7 @@ public class BlackJack {
 
 	    public static void main(String[] args)
 	    {
-	        new BlackJack().run();
+	        new Deliverable1().run();
 	    }
 
 	    public void run()
